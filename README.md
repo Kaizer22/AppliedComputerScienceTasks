@@ -22,3 +22,8 @@ Tasks:
   <b>8  Numeric solution of System Ordinary Differencial Equasions using Successive Approximations, Forecast and Correction, Adams methods + graphical comparison<b>
 
 Description folder contains documents with all progress through tasks
+
+Used libraries:
+-MathNet-
+-ZedGraph-
+-WolframAlpha API- (https://github.com/xjose97x/WolframAlpha)
