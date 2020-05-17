@@ -24,6 +24,9 @@ Tasks:
 Description folder contains documents with all progress through tasks
 
 Used libraries:
+
 -MathNet-
+
 -ZedGraph-
+
 -WolframAlpha API- (https://github.com/xjose97x/WolframAlpha)
