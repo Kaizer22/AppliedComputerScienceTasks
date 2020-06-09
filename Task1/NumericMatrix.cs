@@ -37,6 +37,16 @@ namespace AppliedComputerScienceTasks
             return result;
         }
 
+        public new double[] GetRow(int number)
+        {
+            double[] result = new double[width];
+            for (int i = 0; i < width; i++)
+            {
+                result[i] = elements[number, i];
+            }
+            return result;
+        }
+
         public  NumericMatrix ConcatHorizontally(NumericMatrix first, NumericMatrix second)
         {
             int newWidth = first.width + second.width;
@@ -332,12 +342,12 @@ namespace AppliedComputerScienceTasks
             string result = "";
             for (int i = 0; i < height; i++)
             {
-                result += "|";
+                //result += "|";
 
                 for (int j = 0; j < width; j++)
                     result += string.Format("{0,9}", Math.Round(elements[i, j], 2));  
               
-                result += "|";
+                //result += "|";
                 result +="\n";
             }
 

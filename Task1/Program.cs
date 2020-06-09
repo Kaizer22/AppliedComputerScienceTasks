@@ -14,7 +14,7 @@ namespace AppliedComputerScienceTasks
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Введите номер задания (1/3/4/5/7 - (для 6 и 7 задания)/8/9 - wolframAlphaTest):");
+            Console.WriteLine("Введите номер задания (1/3/4/5/7 - (для 6 и 7 задания)/8/91 - решение волнового уравнения/92/10 - wolframAlphaTest):");
             switch (Convert.ToInt32(Console.ReadLine()))
             {
                 case 1:
@@ -38,7 +38,13 @@ namespace AppliedComputerScienceTasks
                 case 8:
                     TestNumericMethods();
                     break;
-                case 9:
+                case 92:
+                    TestSimplexMethod();
+                    break;
+                case 91:
+                    TestWaveEquasionSolution();
+                    break;
+                case 10:
                     WolframTestAsync();
                     Console.WriteLine("---------");
                     Console.ReadLine();
@@ -165,6 +171,18 @@ namespace AppliedComputerScienceTasks
             Console.ReadLine();
         }
 
+        private static void TestSimplexMethod()
+        {
+
+        }
+
+        private static void TestWaveEquasionSolution()
+        {
+            WaveEquasion wave = new WaveEquasion();
+            Console.WriteLine(wave.FiniteDifferencesMethod().ToString());
+            Console.ReadLine();
+        }
+
         private static async System.Threading.Tasks.Task WolframTestAsync()
         {
             WolframAlphaService wolfram = new WolframAlphaService(WolframAlphaHelper.API_KEY);
@@ -208,6 +226,8 @@ namespace AppliedComputerScienceTasks
             Console.WriteLine(res);
             Console.ReadLine();
         }
+
+        
 
         [STAThread]
         static void DrawGraphics(List<Dictionary<string, FloatingPoint>> a_Points, 

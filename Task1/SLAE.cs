@@ -203,6 +203,16 @@ namespace AppliedComputerScienceTasks
             return single_solution;
         }
 
+        public NumericMatrix GetGeneralSolution()
+        {
+            return general_solution;
+        }
+
+        public bool isGeneralSolutionExists()
+        {
+            return rank != n_x; 
+        }
+
         
 
         public override string ToString()

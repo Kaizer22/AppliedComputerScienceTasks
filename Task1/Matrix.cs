@@ -99,6 +99,16 @@ namespace AppliedComputerScienceTasks
             return result;
         }
 
+        public T[] GetRow(int number)
+        {
+            T[] result = new T[width];
+            for (int i = 0; i<width; i++)
+            {
+                result[i] = elements[number, i];
+            }
+            return result;
+        }
+
         public Matrix<T> ConcatHorizontally(Matrix<T> first, Matrix<T> second)
         {
             Matrix<T> splittedMatrix = new Matrix<T>(first.height, first.width + second.width);

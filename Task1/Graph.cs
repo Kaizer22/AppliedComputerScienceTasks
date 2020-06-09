@@ -16,7 +16,7 @@ namespace AppliedComputerScienceTasks
         //Кол-во узлов графа
         public int nodes_num { get; }
 
-        private int _rel_num { get; set; }
+        private int rel_num { get; set; }
        
 
         //Матрица весов
@@ -41,7 +41,7 @@ namespace AppliedComputerScienceTasks
         public Graph(int nodes_num, int rel_num)
         {
             this.nodes_num = nodes_num;
-            this._rel_num = rel_num;
+            this.rel_num = rel_num;
             inc_table = new NumericMatrix(nodes_num, rel_num);
             relations = new Dictionary<int, List<int>>();
             rel_weights = new NumericMatrix(nodes_num);
@@ -64,18 +64,18 @@ namespace AppliedComputerScienceTasks
         //Обеспечивает более полное описание графа и дает больше гибкости при работе с данным классом
         private void GetIncTable()
         {
-            _rel_num = 0;
+            rel_num = 0;
             for (int i = 0; i < nodes_num; i++)
             {
                 for (int j = 0; j < nodes_num; j++)
                 {
                     if (adj_table.GetElement(i, j) == 1) {
-                        _rel_num++;
+                        rel_num++;
                     }
                 }
             }
 
-            inc_table = new NumericMatrix(nodes_num, _rel_num);
+            inc_table = new NumericMatrix(nodes_num, rel_num);
             int rel_counter = 0;
             for (int i = 0; i < nodes_num; i++)
             {
@@ -94,7 +94,7 @@ namespace AppliedComputerScienceTasks
                             rel_counter++;
                         }
                     }
-                    if (rel_counter > _rel_num)
+                    if (rel_counter > rel_num)
                     {
                         Console.WriteLine("Warning");
                     }
@@ -106,9 +106,9 @@ namespace AppliedComputerScienceTasks
         public void InitGraphInc()
         {
             Console.WriteLine("Введите количество отношений между узлами:");
-            _rel_num = Convert.ToInt32(Console.ReadLine());
+            rel_num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Заполните матрицу инцидентности:");
-            inc_table = new NumericMatrix(nodes_num, _rel_num);
+            inc_table = new NumericMatrix(nodes_num, rel_num);
             inc_table.ConsoleInput();
             GetAdjTable();
             CreateRelations();
@@ -121,9 +121,9 @@ namespace AppliedComputerScienceTasks
             adj_table = new NumericMatrix(nodes_num);
             int from_node = 0;
             int to_node = 0;
-            Console.WriteLine(_rel_num);
+            Console.WriteLine(rel_num);
 
-            for (int j = 0; j < _rel_num; j++)
+            for (int j = 0; j < rel_num; j++)
             {
                 for (int i = 0; i < nodes_num; i++)
                 {
