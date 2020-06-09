@@ -23,9 +23,12 @@ Tasks:
 	
   <b>9.1 Numeric solution of Wave Equation using finite difference method<b>
 	
-	![alt text] (https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/98.PNG)
-	![alt text] (https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/99.PNG)
-	![alt text] (https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/112.PNG)
+![Solution1](https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/98.PNG)
+
+![Solution2](https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/99.PNG)
+
+![Solution3](https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/112.PNG)
+
 Description folder contains documents with all progress through tasks
 
 Used libraries:
