@@ -20,6 +20,8 @@ Tasks:
   <b>7  Numeric solution of System Ordinary Differencial Equasions using Runge-Kutta method (4th order) + graphical comparison<b>
 	
   <b>8  Numeric solution of System Ordinary Differencial Equasions using Successive Approximations, Forecast and Correction, Adams methods + graphical comparison<b>
+	
+  <b>9.1 Numeric solution of Wave Equasion using finite difference method<b>
 
 Description folder contains documents with all progress through tasks
 
