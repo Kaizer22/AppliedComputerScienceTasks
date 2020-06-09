@@ -22,7 +22,10 @@ Tasks:
   <b>8  Numeric solution of System Ordinary Differencial Equations using Successive Approximations, Forecast and Correction, Adams methods + graphical comparison<b>
 	
   <b>9.1 Numeric solution of Wave Equation using finite difference method<b>
-
+	
+	![alt text] (https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/98.PNG)
+	![alt text] (https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/99.PNG)
+	![alt text] (https://github.com/Kaizer22/AppliedComputerScienceTasks/blob/master/112.PNG)
 Description folder contains documents with all progress through tasks
 
 Used libraries:
