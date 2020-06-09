@@ -11,17 +11,17 @@ Tasks:
 	
   <b>3 Algorithms on Graphs (DFS, BFS, Dijkstra)<b>
 	
-  <b>4 Solution of System of Linear Algebraic Equasions using Gauss method<b>
+  <b>4 Solution of System of Linear Algebraic Equations using Gauss method<b>
 	
-  <b>5 Solutiion of System of Non-Linear Algebraic Equasions using Newton method<b>
+  <b>5 Solutiion of System of Non-Linear Algebraic Equations using Newton method<b>
 	
-  <b>(6) Numeric solution of Ordinary Differencial Equasion using Runge-Kutta method (4th order) + graphical comparison<b> 
+  <b>(6) Numeric solution of Ordinary Differencial Equation using Runge-Kutta method (4th order) + graphical comparison<b> 
  
-  <b>7  Numeric solution of System Ordinary Differencial Equasions using Runge-Kutta method (4th order) + graphical comparison<b>
+  <b>7  Numeric solution of System Ordinary Differencial Equations using Runge-Kutta method (4th order) + graphical comparison<b>
 	
-  <b>8  Numeric solution of System Ordinary Differencial Equasions using Successive Approximations, Forecast and Correction, Adams methods + graphical comparison<b>
+  <b>8  Numeric solution of System Ordinary Differencial Equations using Successive Approximations, Forecast and Correction, Adams methods + graphical comparison<b>
 	
-  <b>9.1 Numeric solution of Wave Equasion using finite difference method<b>
+  <b>9.1 Numeric solution of Wave Equation using finite difference method<b>
 
 Description folder contains documents with all progress through tasks
 
