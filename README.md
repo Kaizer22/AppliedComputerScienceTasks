@@ -1,5 +1,5 @@
 # Applied Computer Science Tasks
-Task 1 folder contains all tasks (1-8).
+Task 1 folder contains all tasks (1-9.1).
 
 All tasks can be checked via this only project.
 
